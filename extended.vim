@@ -6,8 +6,6 @@ endif
 call plug#begin($NVIM_SHARE_DIR . '/plugged')
 
 Plug 'kyazdani42/blue-moon' " theme
-" Plug 'OmniSharp/omnisharp-vim' " for C#
-" Plug 'dense-analysis/ale'
 Plug 'ekalinin/Dockerfile.vim'
 Plug 'simrat39/rust-tools.nvim'
 Plug 'preservim/nerdtree'

@@ -27,3 +27,23 @@ autocmd FileType rust,json,javascript setlocal foldmethod=syntax
 " highlight search
 set hlsearch
 nnoremap <silent> <Esc> :nohlsearch<Bar>:echo<CR>
+
+" buffer navigation
+map <A-1> :buffer 1 <CR>
+map <A-2> :buffer 2 <CR>
+map <A-3> :buffer 3 <CR>
+map <A-4> :buffer 4 <CR>
+map <A-5> :buffer 5 <CR>
+map <A-6> :buffer 6 <CR>
+map <A-7> :buffer 7 <CR>
+map <A-8> :buffer 8 <CR>
+map <A-9> :buffer 9 <CR>
+
+" tab navigation
+map :tp :tabprev
+map :tn :tabnext
+map <C-t> :tabnew <CR>
+
+" quit and save
+map <C-s> :w <CR>
+map <C-q> :q <CR>
