@@ -9,7 +9,8 @@ let g:coc_global_extensions = [
       \ 'coc-sql',
       \ 'coc-lua',
       \ 'coc-yaml',
-      \ 'coc-omnisharp'
+      \ 'coc-omnisharp',
+      \ 'coc-markdownlint'
       \]
 
 " if hidden is not set, TextEdit might fail.
